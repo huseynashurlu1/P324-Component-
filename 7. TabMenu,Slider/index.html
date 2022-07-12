@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab Menu, Slider</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+
+  <input type="text" id="input">
+  <button onclick="Generate()">GENERATE</button>
+
+  <img id="photo" src="" alt="">
+
+  <!-- <input type="text" id="input"> -->
+  <!-- <button onclick="Read()">READ</button> -->
+
+  <!-- <div class="container">
+    <div class="tabmenu">
+
+      <div class="buttons">
+        <button id="1" class="active">HTML</button>
+        <button id="2">CSS</button>
+        <button id="3">JAVASCRIPT</button>
+      </div>
+
+      <div class="tab-content">
+
+        <div id="1">
+          <h2>HTML is Markup Language</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, autem?</p>
+        </div>
+
+        <div id="2" class="d-none">
+          <h2>CSS is Cascading Style Sheet</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, autem?</p>
+        </div>
+
+        <div id="3" class="d-none">
+          <h2>JAVASCRIPT is Script Language</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, autem?</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div> -->
+
+  <!-- <div class="slider">
+    <img src="" alt="">
+
+    <div class="prev">
+      <i class="fa-solid fa-arrow-left"></i>
+    </div>
+
+    <div class="next">
+      <i class="fa-solid fa-arrow-right"></i>
+    </div>
+  </div> -->
+
+<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente illo animi ipsum nostrum expedita doloremque ex velit aliquid quam. Aliquid, rerum enim illum dicta minima quae. Libero, hic obcaecati?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente illo animi ipsum nostrum expedita doloremque ex velit aliquid quam. Aliquid, rerum enim illum dicta minima quae. Libero, hic obcaecati?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente illo animi ipsum nostrum expedita doloremque ex velit aliquid quam. Aliquid, rerum enim illum dicta minima quae. Libero, hic obcaecati?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente illo animi ipsum nostrum expedita doloremque ex velit aliquid quam. Aliquid, rerum enim illum dicta minima quae. Libero, hic obcaecati?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente illo animi ipsum nostrum expedita doloremque ex velit aliquid quam. Aliquid, rerum enim illum dicta minima quae. Libero, hic obcaecati?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente illo animi ipsum nostrum expedita doloremque ex velit aliquid quam. Aliquid, rerum enim illum dicta minima quae. Libero, hic obcaecati?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente illo animi ipsum nostrum expedita doloremque ex velit aliquid quam. Aliquid, rerum enim illum dicta minima quae. Libero, hic obcaecati?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente illo animi ipsum nostrum expedita doloremque ex velit aliquid quam. Aliquid, rerum enim illum dicta minima quae. Libero, hic obcaecati?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente illo animi ipsum nostrum expedita doloremque ex velit aliquid quam. Aliquid, rerum enim illum dicta minima quae. Libero, hic obcaecati?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente illo animi ipsum nostrum expedita doloremque ex velit aliquid quam. Aliquid, rerum enim illum dicta minima quae. Libero, hic obcaecati?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente illo animi ipsum nostrum expedita doloremque ex velit aliquid quam. Aliquid, rerum enim illum dicta minima quae. Libero, hic obcaecati?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente illo animi ipsum nostrum expedita doloremque ex velit aliquid quam. Aliquid, rerum enim illum dicta minima quae. Libero, hic obcaecati?</p>
+<h1 data-aos="fade-right"  data-aos-duration="700">FRONT-END DEVELOPMENT</h1>
+<div class="container">
+  <div class="row">
+    <div data-aos="fade-up"  data-aos-duration="700" class="col-lg-4">
+      <div class="box">
+        <img src="assets/images/image1.jpg" alt="">
+      </div>
+    </div>
+    <div data-aos="fade-up"  data-aos-duration="1300" class="col-lg-4">
+      <div class="box">
+        <img src="assets/images/image2.jpg" alt="">
+      </div>
+    </div>
+    <div data-aos="fade-up"  data-aos-duration="1800" class="col-lg-4">
+      <div class="box">
+        <img src="assets/images/image3.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quos architecto minus modi voluptatibus ullam nisi fugiat dolore, et asperiores sunt eos tempore repellat magni eaque ut nobis. Mollitia, sed!</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quos architecto minus modi voluptatibus ullam nisi fugiat dolore, et asperiores sunt eos tempore repellat magni eaque ut nobis. Mollitia, sed!</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quos architecto minus modi voluptatibus ullam nisi fugiat dolore, et asperiores sunt eos tempore repellat magni eaque ut nobis. Mollitia, sed!</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quos architecto minus modi voluptatibus ullam nisi fugiat dolore, et asperiores sunt eos tempore repellat magni eaque ut nobis. Mollitia, sed!</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quos architecto minus modi voluptatibus ullam nisi fugiat dolore, et asperiores sunt eos tempore repellat magni eaque ut nobis. Mollitia, sed!</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quos architecto minus modi voluptatibus ullam nisi fugiat dolore, et asperiores sunt eos tempore repellat magni eaque ut nobis. Mollitia, sed!</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quos architecto minus modi voluptatibus ullam nisi fugiat dolore, et asperiores sunt eos tempore repellat magni eaque ut nobis. Mollitia, sed!</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quos architecto minus modi voluptatibus ullam nisi fugiat dolore, et asperiores sunt eos tempore repellat magni eaque ut nobis. Mollitia, sed!</p> -->
+
+<!-- 
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <div data-tilt class="box">
+        <img src="assets/images/image1.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div data-tilt class="box">
+        <img src="assets/images/image2.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div data-tilt class="box">
+        <img src="assets/images/image3.png" alt="">
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div id="particles-js"></div>
+
+
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
